@@ -7,3 +7,26 @@ html, body {
 * {
 	font-family: 'Open Sans', sans-serif;
 }
+.air {
+	width: 100%;
+}
+/*part 1 start*/
+.background-stripe-top {
+	background-color: #333333;
+}
+.my-line-1 {
+	
+}
+.first-heading h6 {
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 300;
+}
+.first-button form {
+	
+}
+.first-button form input {
+	
+}
+/*part 1 end*/
