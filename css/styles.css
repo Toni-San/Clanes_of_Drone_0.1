@@ -11,10 +11,16 @@ html, body {
 	width: 100%;
 }
 /*part 1 start*/
+.my-line-1 {
+	height: 100px;
+}
 .background-stripe-top {
 	background-color: #333333;
 }
-.my-line-1 {
+.first-heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .first-heading h6 {
 	margin: 0;
@@ -22,8 +28,34 @@ html, body {
 	font-size: 1em;
 	font-weight: 300;
 }
-.first-button form {
+.first-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .first-button form input {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 200px;
+	height: 35px;
+	background-color: #1fbad6;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: 300;
 }
+
+/*media start*/
+@media (min-width: 576px) {
+.my-line-1 {
+	height: 70px;
+}
+.first-heading {
+	justify-content: flex-end;
+}
+.first-button {
+	justify-content: flex-start;
+}
+}
+/*media end*/
 /*part 1 end*/
