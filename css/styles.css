@@ -62,11 +62,6 @@ html, body {
 }
 /*media end*/
 /*part 1 end*/
-/*part of the main content*/
-.content {
-	position: relative;
-}
-/*part of the main content*/
 /*part 2 start*/
 .first-row-of-caps {
 	justify-content: space-around;
