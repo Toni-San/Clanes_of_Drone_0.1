@@ -204,14 +204,15 @@ html, body {
 /*part 4 end*/
 /*part footer start*/
 .first-basement-unit {
-	height: 120px;
+	min-height: 120px;
 	background-color: #fb764d;
 	display: flex;
 	align-items: center;
 }
 .my-string-footer-first {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
+	align-items: center;
 }
 .text-footer {
 	margin: 15px;
@@ -224,10 +225,15 @@ html, body {
 	color: #FFFFFF;
 	font-size: 2em;
 	font-weight: 300;
+	text-transform: uppercase;
+}
+.text-footer h4 span {
+	font-size: 1.2em;
 }
 .text-footer p {
 	margin: 0;
 	color: #FFFFFF;
+	text-align: right;
 }
 .first-basement-unit form {
 	margin: 15px;
@@ -242,8 +248,50 @@ html, body {
 	color: #FFFFFF;
 	font-size: 1.2em;
 	font-weight: 300;
+	text-transform: uppercase;
 }
 .first-basement-unit form input:hover {
 	cursor: pointer;
+}
+.second-basement-unit {
+	min-height: 90px;
+}
+.second-basement-unit .contacts ul {
+	list-style-type: none;
+}
+.second-basement-unit .contacts>ul {
+	margin: 0;
+	padding: 0;
+}
+.second-basement-unit .contacts>ul>li {
+	display: flex;
+}
+.my-string-footer-second {
+	display: flex;
+	justify-content: space-between;
+}
+.contacts span {
+	font-weight: 600;
+}
+.contacts address {
+	margin: 0;
+	color: #787878;
+}
+.last-text {
+}
+.last-text h1 {
+	margin: 0;
+	font-weight: 400;
+	text-align: right;
+}
+.last-text address {
+	margin: 0;
+	color: #737373
+}
+
+@media (min-width: 992px) {
+.my-string-footer-first {
+	justify-content: flex-end;
+}
 }
 /*part footer end*/
