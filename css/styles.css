@@ -169,6 +169,9 @@ html, body {
 	color: #FFFFFF;
 	background-color: #1fbad6;
 }
+.my-line-2 form input:hover {
+	cursor: pointer;
+}
 
 /*media start*/
 @media (min-width: 576px) {
@@ -188,7 +191,7 @@ html, body {
 	margin: 25px 0;
 	text-align: center;
 	font-size: 2em;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 /*media start*/
@@ -199,3 +202,48 @@ html, body {
 }
 /*media end*/
 /*part 4 end*/
+/*part footer start*/
+.first-basement-unit {
+	height: 120px;
+	background-color: #fb764d;
+	display: flex;
+	align-items: center;
+}
+.my-string-footer-first {
+	display: flex;
+	justify-content: flex-end;
+}
+.text-footer {
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end
+}
+.text-footer h4 {
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 2em;
+	font-weight: 300;
+}
+.text-footer p {
+	margin: 0;
+	color: #FFFFFF;
+}
+.first-basement-unit form {
+	margin: 15px;
+}
+.first-basement-unit form input {
+	width: 195px;
+	height: 55px;
+	margin: 0;
+	border: solid 1px #FFFFFF;
+	padding: 0;
+	background-color: rgba(0,0,0,0.00);
+	color: #FFFFFF;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+.first-basement-unit form input:hover {
+	cursor: pointer;
+}
+/*part footer end*/
