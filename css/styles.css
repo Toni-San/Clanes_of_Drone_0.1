@@ -196,8 +196,11 @@ html, body {
 .my-line-4 {
 }
 .my-container {
-	margin:  15px 0;
+	margin: 15px 0;
 	min-width: 320px;
+}
+.my-container a {
+	color: #000000;
 }
 .my-container-header {
 	display: flex;
@@ -215,51 +218,116 @@ html, body {
 	background-image: url(../images/picture1.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-1:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-2 {
 	background-image: url(../images/picture2.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-2:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-3 {
 	background-image: url(../images/picture3.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-3:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-4 {
 	background-image: url(../images/picture4.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-4:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-5 {
 	background-image: url(../images/picture5.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-5:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-6 {
 	background-image: url(../images/picture6.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-6:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-7 {
 	background-image: url(../images/picture7.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-7:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-8 {
 	background-image: url(../images/picture8.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-8:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-9 {
 	background-image: url(../images/picture9.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-9:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
 }
 .my-container-background-10 {
 	background-image: url(../images/picture10.jpg);
 	background-size: cover;
 	min-height: 385px;
+	position: relative;
+	overflow: hidden;
+}
+.my-container-background-10:hover .sliding-text {
+	top: 0;
+	cursor: pointer;
+}
+.sliding-text {
+	background-color: rgba(255,255,255,0.70);
+	position: absolute;
+	bottom: -500px;
 }
 
 /*media start*/
