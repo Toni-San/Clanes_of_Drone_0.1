@@ -194,10 +194,17 @@ html, body {
 .my-line-4 article {
 	margin: 15px 0;
 }
+.my-line-4 article a {
+	color: #000000;
+}
+.my-line-4 article a:hover {
+	text-decoration: none;
+}
 .my-line-4 article h6 {
 	font-size: 1em;
 	font-weight: 400;
-	margin: 0;/*height: 50px;*/
+	margin: 0;
+	height: 50px;
 }
 .my-line-4 article>div {
 	height: 350px;
@@ -213,6 +220,9 @@ html, body {
 	bottom: -300px;
 	transition: 1s;
 	overflow: overlay;
+}
+.sliding-text p {
+	margin: 5px;
 }
 .my-container:hover .sliding-text {
 	bottom: 0;
