@@ -329,3 +329,41 @@ html, body {
 }
 }
 /*part footer end*/
+.absolute-positioning-container {
+	position: relative;
+}
+.open {
+	left: 0;
+}
+.closed {
+	margin: 15px;
+	position: absolute;
+	left: -250px;
+	border: solid 1px rgba(0,0,0,0.50);
+	border-radius: 5px;
+}
+/*.open {
+	left: 0;
+}*/
+.menu {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: rgba(0,0,0,0.50);
+}
+.menu li {
+	margin: 10px 0;
+	text-align: center;
+}
+.menu a {
+	color: #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+	border-radius: 5px
+}
+.menu a:hover {
+	text-decoration: none;
+	border-bottom: solid 1px #1fbad6;
+	border-radius: 5px;
+	color: #1fbad6;
+}
