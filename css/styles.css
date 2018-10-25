@@ -191,16 +191,31 @@ html, body {
 	font-size: 2em;
 	font-weight: 300;
 }
-.my-line-4 {
+.my-line-4 article {
+	margin: 15px 0;
+}
+.my-line-4 article h6 {
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0;/*height: 50px;*/
+}
+.my-line-4 article>div {
+	height: 350px;
 }
 .my-container {
-	margin: 15px 0;
-	min-width: 320px;
+	position: relative;
+	overflow: hidden;
 }
 .sliding-text {
+	height: 300px;
 	background-color: rgba(255,255,255,0.70);
 	position: absolute;
-	bottom: -500px;
+	bottom: -300px;
+	transition: 1s;
+	overflow: overlay;
+}
+.my-container:hover .sliding-text {
+	bottom: 0;
 }
 
 /*media start*/
